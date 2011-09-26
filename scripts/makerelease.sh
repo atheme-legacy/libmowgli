@@ -92,8 +92,8 @@ if [ "x$AUTOMATIC" != "xyes" ]; then
 fi
 
 if [ "x$PUBLISH" = "xyes" ]; then
-	scp $RELEASENAME.tgz distfiles-master.atheme.org:/srv/distfiles
-	scp $RELEASENAME.tbz2 distfiles-master.atheme.org:/srv/distfiles
+	scp $RELEASENAME.tar.gz distfiles.atheme.org:/var/www/distfiles.atheme.org/
+	scp $RELEASENAME.tar.bz2 distfiles.atheme.org:/var/www/distfiles.atheme.org/
 
 	echo
 	echo "The releases have been published, and will be available to the entire"
