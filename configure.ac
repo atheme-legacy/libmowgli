@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
-AC_INIT([libmowgli], [0.9.95], [bugs+libmowgli@atheme.org])
+AC_INIT([libmowgli], [1.0.0], [bugs+libmowgli@atheme.org])
 AC_CONFIG_SRCDIR([src/libmowgli/mowgli_alloc.c])
 AC_CONFIG_HEADER([src/libmowgli/mowgli_config.h])
 
@@ -77,7 +77,7 @@ AC_OUTPUT
 cat << _EOF_
 
 Configuration:
-	No special features yet.
+	Examples: ${enable_examples}
 
 Now type "make" to build, and "make install" to install.
 Thank you for using libmowgli.
